@@ -134,7 +134,7 @@
 
 			var branding = $('#fh5co-header-branding');
 
-			if ( scrlTop > 500 && scrlTop <= 2000 ) {
+			if ( scrlTop > 500) {
 				header.addClass('navbar-fixed-top fh5co-animated slideInDown');
 				header.removeClass('hidden');
 			} else if ( scrlTop <= 500) {
