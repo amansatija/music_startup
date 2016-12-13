@@ -184,6 +184,34 @@
 	.bg_color_theme_yellow{
 		background-color: #ffce07
 	}
+
+	@keyframes circle {
+	from {
+		transform: scale(0)
+	}
+	to {
+		transform: scale(6)
+	}
+}
+.circle {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border: 20px solid CadetBlue;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+.one {
+  animation: circle 9s infinite linear;
+}
+.two {
+  animation: circle 8s infinite linear;
+}
+.three {
+  animation: circle 7s infinite linear;
+}
 	</style>
 	<!-- End demo purposes only -->
 
@@ -233,6 +261,9 @@
 			<div class="text-wrap">
 				<div class="text-inner">
 					<div class="row">
+					<div class="circle one"></div>
+					<div class="circle two"></div>
+					<div class="circle three"></div>
 						<div class="col-md-8 col-md-offset-2">
 							<!-- <h1 class="to-animate">Do something you love.</h1>
 							<h2 class="to-animate">Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a></h2> -->
